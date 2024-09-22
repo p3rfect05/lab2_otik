@@ -80,3 +80,6 @@ print("\nТаблица характеристик символов по убы�
 
 for byte, prob in sorted_byte_probabilities_by_freq:
     print(f"Символ: {byte}, Ненормированная частота: {byte_frequencies[byte]}, Оценка вероятности: {byte_probabilities[byte]: .6f}, Информация: {byte_information[byte]:.6f}")
+
+
+print(total_information)
